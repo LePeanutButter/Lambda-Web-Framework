@@ -47,9 +47,9 @@ class StaticFileHandlerTest {
         }
 
         @Test
-        @DisplayName("serves style.css with correct Content-Type")
+        @DisplayName("serves styles.css with correct Content-Type")
         void servesStyleCssWithCorrectContentType() {
-            HttpRequest request = new HttpRequest("GET", "/style.css", "HTTP/1.1", java.util.Map.of(), java.util.Map.of());
+            HttpRequest request = new HttpRequest("GET", "/styles.css", "HTTP/1.1", java.util.Map.of(), java.util.Map.of());
 
             boolean handled = StaticFileHandler.handle(request, outputStream);
 

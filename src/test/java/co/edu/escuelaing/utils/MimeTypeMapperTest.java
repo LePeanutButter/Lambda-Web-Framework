@@ -22,7 +22,7 @@ class MimeTypeMapperTest {
         @Test
         @DisplayName("returns text/css for css")
         void returnsTextCssForCss() {
-            assertEquals("text/css", MimeTypeMapper.getMimeType("style.css"));
+            assertEquals("text/css", MimeTypeMapper.getMimeType("styles.css"));
         }
 
         @Test

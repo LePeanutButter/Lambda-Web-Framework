@@ -86,9 +86,9 @@ class ConnectionHandlerTest {
         }
 
         @Test
-        @DisplayName("serves style.css")
+        @DisplayName("serves styles.css")
         void servesStyleCss() throws Exception {
-            String response = sendRequest("GET /style.css HTTP/1.1\r\nHost: localhost\r\n\r\n");
+            String response = sendRequest("GET /styles.css HTTP/1.1\r\nHost: localhost\r\n\r\n");
 
             assertTrue(response.contains("200 OK"));
             assertTrue(response.contains("text/css"));

@@ -102,7 +102,7 @@ String seguro = req.getValue("name").orElse("invitado");  // Optional (alternati
 ```java
 RouteRegistry.staticfiles("webroot");
 // Sirve archivos desde src/main/resources/webroot/
-// /index.html, /style.css, /app.js, /images/logo.svg
+// /index.html, /styles.css, /app.js, /images/logo.svg
 ```
 
 ---
