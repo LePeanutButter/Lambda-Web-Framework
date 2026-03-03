@@ -1,5 +1,7 @@
 # Web Framework for REST Services and Static File Management
 
+> Note: This project not only followed the academic work guide provided, but also leveraged the architecture proposed in the article [**Build Your Own HTTP Server in Java 21: From Raw Sockets to Static Sites**](https://medium.com/@ankitmaurya1994/build-your-own-http-server-in-java-21-from-raw-sockets-to-static-sites-04c3ec92371b) published on [_Medium_](https://medium.com/), which served as a conceptual reference for the structural design and modular organization of the implemented HTTP server.
+
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 A lightweight Java 21 web framework built from scratch using TCP sockets to support REST services through lambda expressions and static file management over HTTP.
